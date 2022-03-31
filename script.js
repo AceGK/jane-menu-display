@@ -4,10 +4,7 @@ let storeID = menuLoc.substring(menuLoc.lastIndexOf("=") + 1);
 
 if (
   window.location.toString().includes("?location") &&
-  url === 
-//   "/shop/" + 
-"/iheartjane-menu-display/" +
-  menuLoc
+  url ===  "/shop/" + menuLoc
 
 ) {
   document.getElementById("jane-frame-script").src =
