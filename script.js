@@ -6,6 +6,7 @@ if (
   window.location.toString().includes("?location") &&
   url === 
 //   "/shop/" + 
+"/iheartjane-menu-display/" +
   menuLoc
 
 ) {
